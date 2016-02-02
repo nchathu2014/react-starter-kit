@@ -1,5 +1,5 @@
 # react-starter-kit
-webpack appraoch to create a react project - starter kit
+webpack appraoch to create a react project (without routing) - starter kit
 
 #Dependencies
 - npm init
