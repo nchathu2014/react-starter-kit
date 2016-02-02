@@ -1,0 +1,18 @@
+{
+  "name": "react-starter-kit",
+  "description": "webpack appraoch to create a react project - starter kit",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/nchathu2014/react-starter-kit",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}

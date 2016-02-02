@@ -1,24 +1,30 @@
 {
-  "name": "basic-react-project",
+  "name": "react-starter-kit",
   "version": "1.0.0",
-  "description": "This is a reactjs project skeliton from the scracth",
-  "main": "app.js",
+  "description": "webpack appraoch to create a react project - starter kit",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "ReactJS",
-    "Facebook"
-  ],
-  "author": "T.D.N.Chathuranga",
-  "license": "MIT",
-  "devDependencies": {
-    "babel-core": "^6.4.5",
-    "babel-loader": "^6.2.1",
-    "webpack": "^1.12.12",
-    "webpack-dev-server": "^1.14.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nchathu2014/react-starter-kit.git"
   },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nchathu2014/react-starter-kit/issues"
+  },
+  "homepage": "https://github.com/nchathu2014/react-starter-kit#readme",
   "dependencies": {
-    "react": "^0.14.7"
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.13",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "webpack": "^1.12.12"
   }
 }
