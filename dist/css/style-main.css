@@ -1,0 +1,50 @@
+body{
+	background: #1b6d85;
+	color:black
+}
+
+.cus-input{
+	padding:30px;
+	font-size: 20px;
+	color:black;
+}
+
+.list-item{
+	font-size: 18px;
+	font-weight:bold;
+	border-bottom:2px solid #1b6d85;
+	padding: 20px;
+	color:#1b6d85;
+	background-color:#adc2eb;
+}
+
+.list{
+	max-height:600px;
+	overflow: auto;
+}
+
+.btnGroup{
+	display:inline;
+}
+
+.editTextBox{
+	border:2px dotted #1b6d85;
+	background-color: #adc2eb
+}
+
+.itemListContainer{
+	-webkit-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.count-header{
+	background: #ff0000;
+	padding: 10px 10px 15px 10px;
+	color:white;
+}
+
+.cus-text{
+	border-radius: none;
+	padding: 10px;
+}

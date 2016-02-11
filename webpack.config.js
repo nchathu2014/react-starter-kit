@@ -1,23 +1,27 @@
-module.exports={
+module.exports =  {
 
-	entry:"./app/components/Main.js",
+	entry:"./src/main.js",
 	output:{
-		filename:"public/bundle.js"
+		path:"./dist",
+		filename:"bundle.js",
+		publicPath:"/"
 	},
-	module:
-		{
-			loaders:[
-				{
-					test:/\.jsx?$/,
-					exclude:/(node_modules|bower_components)/,
-					loader:'babel',
-					query:{
-						presets:['react','es2015']
-					}
+	devServer:{
+		inline:true,
+		contentBase:'./dist',
+		port:7000
+	},
+	module:{
+		
+		loaders:[
+			{
+				test   :/\.jsx?$/,
+				exclude:/(node_modules|bower_components)/,
+				loader :'babel',
+				query  :{
+					presets:['react','es2015']
 				}
-			]
-		}
-};
-
-
-
+			}
+		]
+	}
+}
