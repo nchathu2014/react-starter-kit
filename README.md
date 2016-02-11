@@ -1,17 +1,18 @@
-# react-starter-kit
+# ReactJS Starter Kit
 webpack appraoch to create a react project - starter kit
 
-#Dependencies
-- npm init
-- npm install --save react
-- npm install --save react-dom
-- npm install -g webpack
+# Prerequisite
+Node (^5) , webpack and webpack-dev-server
 
+if you are having trouble with these follow the links to chekouts
 
-#Dev Dependencies
-- npm install --save-dev babel-core@6.3.13 babel-loader@6.2.0 babel-preset-es2015@6.3.13 babel-preset-react@6.3.13
+- Node -> https://nodejs.org 
+- webpack -> npm install -g webpack 
+- webpack dev server -> npm install -g webpack-dev-server
 
-#Run
-npm install
-bower install (optional / this bind the bootstrao framework)
-"webpack -w" inside the project folder
+# Run
+- npm install
+- npm start
+
+# Test
+http://localhost:7000
