@@ -1,8 +1,8 @@
 # ReactJS Starter Kit
 webpack appraoch to create a react project - starter kit
 
-# Prerequisite
-Node (^5) , webpack and webpack-dev-server
+# Prerequisite (latest versions)
+Node , webpack and webpack-dev-server
 
 if you are having trouble with these follow the links to chekouts
 
